@@ -30,6 +30,7 @@
   Before to use, you need Node.js, bower and npm. You should also have git installed.
   * 1: Clone the repository (or download the ZIP file)
   * 2: Install & Run project with `$ npm start`
+  * 3: Refresh browser page to have all resources available
 
 
 ## Usage
@@ -39,7 +40,7 @@
 
   Your application will be automaticly create by Gulp Task `$ gulp` in the final production folder `dist/`.
 
-  To stop dev server press `ctrl + c` in your CLI.
+  To stop gulp dev server press `ctrl + c` in your CLI.
   You can restart dev server in development mode with `$ gulp` or production bundle with `$ gulp prod`
 
 
