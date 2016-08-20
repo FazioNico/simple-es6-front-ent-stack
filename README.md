@@ -23,7 +23,7 @@
   * Production and Development builds (Uglify /Sourcemaps)
 
 ## Usage
-  Before to use, you need Node.js and npm. You should also have git installed.
+  Before to use, you need Node.js, bower and npm. You should also have git installed.
   * 1: Clone the repository (or download the ZIP file)
   * 2: Install project dependencies with `$ npm install`
   * 3: Install Bower dependencies with `$ npm start`
@@ -31,4 +31,4 @@
 
 ## About author
   Hi, i'm a Front-end developper living in Geneva Switzerland and i bulid web applications for almost 15 years.
-  You can follow me on Twitter [@FazioNico](https://twitter.com/FazioNico) or checkout my own website [http://nicolasfazio.ch](http://nicolasfazio.ch) 
+  You can follow me on Twitter [@FazioNico](https://twitter.com/FazioNico) or checkout my own website [http://nicolasfazio.ch](http://nicolasfazio.ch)
