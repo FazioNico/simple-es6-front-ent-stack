@@ -3,7 +3,7 @@
 * @Date:   09-08-2016
 * @Email:  contact@nicolasfazio.ch
 * @Last modified by:   webmaster-fazio
-* @Last modified time: 20-08-2016
+* @Last modified time: 21-08-2016
 */
 
 // import gulp and gulp dependencies plugins
@@ -39,17 +39,18 @@ var bowerDependencies = [
 
 //// Gulp runing task availables:
 // 1: Default task. This will be run when no task is passed in arguments to $ gulp
-gulp.task("default",[
+gulp.task("run",[
   'js-dependencies',
   'sass-dependencies',
   'fonts-dependencies',
   'copyTemplateFiles',
   'copyStaticFiles',
   'sass',
-  'build',
-  'startServer',
-  'watch'
+  'build'
 ]);
+gulp.task('default', ['run'], function() {
+    gulp.start('startServer', 'watch');
+});
 // 2: prod task. This will be run when your project is ready to deploy on server production
 // It will minify bundle.js file
 gulp.task("prod",[
@@ -57,8 +58,8 @@ gulp.task("prod",[
   'sass-dependencies',
   'fonts-dependencies',
   'copyTemplateFiles',
-  'sass',
   'copyStaticFiles',
+  'sass',
   'build-prod'
 ]);
 
