@@ -38,10 +38,12 @@
 
   WARNING: only use `dev/` folder to developpe your application (add or change files).
 
-  Your application will be automaticly create by Gulp Task `$ gulp` in the final production folder `dist/`.
+  Your application will be automaticly create by Gulp Task `$ gulp` in the final production folder `dist/`. You've nothing to do.
 
   To stop gulp dev server press `ctrl + c` in your CLI.
-  You can restart dev server in development mode with `$ gulp` or production bundle with `$ gulp prod`
+  You can restart server in development mode with `$ npm run dev`
+
+  To deploy in production mode, use `$ npm run prod`
 
 
 ## About author

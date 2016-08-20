@@ -7,8 +7,9 @@
     "start": "npm install",
     "postinstall": "npm run bower",
     "bower": "npm run gulp bower",
-    "postbower": "npm run gulp",
-    "gulp": "gulp",
+    "postbower": "npm run dev",
+    "dev": "gulp",
+    "prod": "gulp prod",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nicolas Fazio <contact@nicolasfazio.ch>",
