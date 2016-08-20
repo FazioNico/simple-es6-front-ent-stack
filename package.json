@@ -4,7 +4,9 @@
   "description": "Build javascript ES6 webapp with Gulp and Babel",
   "main": "main.js",
   "scripts": {
-    "start": "gulp bower",
+    "bower": "gulp bower",
+    "gulp": "gulp",
+    "start": "npm install & npm run bower & npm run gulp",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nicolas Fazio <contact@nicolasfazio.ch>",

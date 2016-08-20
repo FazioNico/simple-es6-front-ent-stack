@@ -3,7 +3,7 @@
 @Date:   20-08-2016
 @Email:  contact@nicolasfazio.ch
 @Last modified by:   webmaster-fazio
-@Last modified time: 20-08-2016
+@Last modified time: 21-08-2016
 -->
 
 # Simple ES6 Front-end Stack
@@ -29,9 +29,7 @@
 ## Starting
   Before to use, you need Node.js, bower and npm. You should also have git installed.
   * 1: Clone the repository (or download the ZIP file)
-  * 2: Install project dependencies with `$ npm install`
-  * 3: Install Bower dependencies with `$ npm start`
-  * 4: Run development build with `$ gulp` or run production build with `$ gulp prod`
+  * 2: Install & Run project with `$ npm start`
 
 
 ## Usage
@@ -41,6 +39,8 @@
 
   Your application will be automaticly create by Gulp Task `$ gulp` in the final production folder `dist/`.
 
+  To stop dev server press `ctrl + c` in your CLI.
+  You can restart dev server in development mode with `$ gulp` or production bundle with `$ gulp prod`
 
 
 ## About author
