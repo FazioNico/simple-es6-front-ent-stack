@@ -33,6 +33,7 @@
   * 3: Install Bower dependencies with `$ npm start`
   * 4: Run development build with `$ gulp` or run production build with `$ gulp prod`
 
+
   Then you're ready to build your own application.
   WARNING: only use `dev/` folder to developpe your application (add or change files).
   Your application will be automaticly create by Gulp Task `$ gulp` in the final production folder `dist/`.
