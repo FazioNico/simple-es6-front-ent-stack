@@ -26,7 +26,7 @@
 
 
 
-## Usage
+## Starting
   Before to use, you need Node.js, bower and npm. You should also have git installed.
   * 1: Clone the repository (or download the ZIP file)
   * 2: Install project dependencies with `$ npm install`
@@ -34,8 +34,11 @@
   * 4: Run development build with `$ gulp` or run production build with `$ gulp prod`
 
 
-  Then you're ready to build your own application.
+## Usage
+  Now you're ready to build your own application.
+
   WARNING: only use `dev/` folder to developpe your application (add or change files).
+
   Your application will be automaticly create by Gulp Task `$ gulp` in the final production folder `dist/`.
 
 
