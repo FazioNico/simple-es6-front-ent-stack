@@ -9,6 +9,8 @@
 # Simple ES6 Front-end Stack
   Build javascript ES6 applications with Bower, Gulp and Babel
 
+
+
 ## Features
   This starter kit include the following features:
   * Bower dependencies manager
@@ -17,10 +19,12 @@
   * Gulp taskrunner
     * Babel
       * Full ES6 compatibility with Browserify + Babelify
-      * Livereload with Browsersync
+    * Livereload with Browsersync
     * Sass to css with compiler
     * HTML remove comments
   * Production and Development builds (Uglify /Sourcemaps)
+
+
 
 ## Usage
   Before to use, you need Node.js, bower and npm. You should also have git installed.
@@ -28,6 +32,8 @@
   * 2: Install project dependencies with `$ npm install`
   * 3: Install Bower dependencies with `$ npm start`
   * 4: Run development build with `$ gulp` or run production build with `$ gulp prod`
+
+
 
 ## About author
   Hi, i'm a Front-end developper living in Geneva Switzerland and i bulid web applications for almost 15 years.
