@@ -1,0 +1,12 @@
+*~
+.DS_Store
+.svn
+.cvs
+*.bak
+*.swp
+Thumbs.db
+npm-debug.log
+node_modules
+
+dev/src/bower_components
+dist

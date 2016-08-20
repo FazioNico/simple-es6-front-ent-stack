@@ -1,0 +1,33 @@
+{
+  "name": "simple-es6-front-ent-stack",
+  "version": "0.0.1",
+  "description": "Build javascript ES6 webapp with Gulp and Babel",
+  "main": "main.js",
+  "scripts": {
+    "start": "gulp bower",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nicolas Fazio <contact@nicolasfazio.ch>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.13.2",
+    "babelify": "^7.3.0",
+    "browser-sync": "^2.14.0",
+    "browserify": "^13.1.0",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-bower": "0.0.13",
+    "gulp-concat": "^2.6.0",
+    "gulp-connect": "^5.0.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-remove-html-comments": "^1.0.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-uglify": "^2.0.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0"
+  }
+}

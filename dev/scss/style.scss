@@ -1,0 +1,22 @@
+// @Author: Nicolas Fazio <webmaster-fazio>
+// @Date:   20-08-2016
+// @Email:  contact@nicolasfazio.ch
+// @Last modified by:   webmaster-fazio
+// @Last modified time: 20-08-2016
+
+// use:  @import "folder/file-to-include";
+// to add external sass file.
+
+/*--------------------------------------------------------------
+# Elements
+--------------------------------------------------------------*/
+@import "elements/elements";
+
+/*--------------------------------------------------------------
+# Typography
+--------------------------------------------------------------*/
+@import "typography/headings";
+
+body{
+  background: white;
+};
